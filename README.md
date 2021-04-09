@@ -3,4 +3,5 @@ Bachelor Thesis Project - AI Model that recognises bodies of water from satellit
 
 ##MEMBERS:
 Sebastian Baszczynski
+
 Arvin
