@@ -27,7 +27,7 @@ After successful installation of Python and Conda, Conda will be used to create 
 ### Create and use a new environment
 In order to create a new environment by entering the following text in your command line interface:
 ```
-conda create -n water-recognition-env vs2015_runtime=14 
+conda create -n water-recognition-env vs2015_runtime=14 python=3.8.8
 ```
 Activate the conda environment:
 ```
@@ -56,16 +56,12 @@ conda install -c conda-forge geemap
 conda install -c conda-forge tensorflow
 ```
 ### Using your environment in the Jupyter Notebook
-In order to use your environment in the Jupyter Notebook you need to install Ipykernel in your conda environment:
-```
-conda install -c conda-forge ipykernel
-```
-Then run the following command in your conda environment:
+In order to use your environment in the Jupyter Notebook you need to run the following command:
 ```
 python -m ipykernel install --user --name=water-recognition-env
 ```
-
-
+Now you can run Jupyter Notebook and you will have water-recognition-env as one of its kernel.
+It is highly recommended to use this kernel as it has all of the required dependecies installed.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job)
    [University Of Gothenburg]: <https://www.gu.se/en>
