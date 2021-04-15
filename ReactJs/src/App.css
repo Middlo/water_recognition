@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+
+.ButtonLoad{
+  position: fixed;
+  bottom: 0;
+  width: 100px;
+  height: 30px;
+}
+
+.ButtonSave{
+  position: fixed;
+  bottom: 0;
+  left: 10%;
+  width: 100px;
+  height: 30px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
