@@ -19,6 +19,9 @@ In order to use this project it is required to have access to and install the fo
 - Google Earth Engine Library
 - GEEMAP
 - TensorFlow
+- OpenCV
+- TQDM
+- TFLearn
 
 ## Installation
 ### Python and Conda
