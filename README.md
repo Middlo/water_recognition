@@ -18,7 +18,10 @@ In order to use this project it is required to have access to and install the fo
 - GDAL Library
 - Google Earth Engine Library
 - GEEMAP
-- TensorFlow
+- TensorFlow-GPU
+- Keras
+- Numpy
+- Matplotlib
 
 ## Installation
 ### Python and Conda
