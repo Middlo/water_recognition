@@ -46,10 +46,18 @@ class MyComponents extends Component {
     this.setState({markerList: data})
   }
 
+  onUndo = () => {
+    var array = [...this.state.markerList]
+    array.pop()
+    this.setState({
+      markerList: array
+    })
+  }
+
   render() {
     return (
       <LoadScript
-        googleMapsApiKey="AIzaSyAOCjHQ-RoEgcmpP_PZzdmwjWEZ5wBwnd4"
+        googleMapsApiKey="AIzaSyACuqekmPYqHlh_H84w8CwM2xHWDozrfnk"
       >
         <GoogleMap
           mapContainerStyle={containerStyle}
@@ -61,6 +69,8 @@ class MyComponents extends Component {
         </GoogleMap>
         <button className={"ButtonSave"} onClick={() => this.onSave()}>SAVE</button>
         <button className={"ButtonLoad"} onClick={() => this.onLoad()}>LOAD</button>
+        <button className={"ButtonUndo"} onClick={() => this.onUndo()}>UNDO</button>
+        <p className={"CounterTxt"}>Amount of Markers: {this.state.markerList.length}</p>
       </LoadScript>
     )
   }

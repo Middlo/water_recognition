@@ -31,7 +31,7 @@ export default class MarkerRectangle extends Component{
         const brngA = degrees_to_radians(135)
         const brngB = degrees_to_radians(315)
 
-        const d = 5
+        const d = 2.5
 
         const φ1 = degrees_to_radians(lat) 
         const λ1 = degrees_to_radians(lng)
