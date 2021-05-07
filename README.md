@@ -74,6 +74,18 @@ conda install -c anaconda numpy
 ```
 conda install -c anaconda matplotlib
 ```
+#### OpenCV
+```
+conda install -c conda-forge opencv
+```
+#### TQDM
+```
+conda install -c conda-forge tqdm
+```
+#### TFLearn
+```
+conda install -c contango tflearn
+```
 ### Using your environment in the Jupyter Notebook
 In order to use your environment in the Jupyter Notebook you need to run the following command:
 ```
