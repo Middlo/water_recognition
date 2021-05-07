@@ -18,7 +18,10 @@ In order to use this project it is required to have access to and install the fo
 - GDAL Library
 - Google Earth Engine Library
 - GEEMAP
-- TensorFlow
+- TensorFlow-GPU
+- Keras
+- Numpy
+- Matplotlib
 
 ## Installation
 ### Python and Conda
@@ -27,7 +30,7 @@ After successful installation of Python and Conda, Conda will be used to create 
 ### Create and use a new environment
 In order to create a new environment by entering the following text in your command line interface:
 ```
-conda create -n water-recognition-env vs2015_runtime=14 python=3.8.8
+conda create -n water-recognition-env vs2015_runtime=14 python=3.6
 ```
 Activate the conda environment:
 ```
@@ -51,9 +54,25 @@ conda install -c conda-forge earthengine-api
 ```
 conda install -c conda-forge geemap
 ```
-#### TensorFlow
+#### TensorFlow-GPU
 ```
-conda install -c conda-forge tensorflow
+conda install -c anaconda tensorflow-gpu
+```
+#### TensorFlow-GPU
+```
+conda install -c anaconda tensorflow-gpu
+```
+#### Keras
+```
+conda install -c anaconda keras
+```
+#### Numpy
+```
+conda install -c anaconda numpy
+```
+#### Matplotlib
+```
+conda install -c anaconda matplotlib
 ```
 ### Using your environment in the Jupyter Notebook
 In order to use your environment in the Jupyter Notebook you need to run the following command:
